@@ -1,4 +1,2 @@
-# Java-In-Class
+# Java Tutorials
 
-
-Self taught
