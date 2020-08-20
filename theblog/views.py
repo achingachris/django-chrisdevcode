@@ -10,7 +10,8 @@ from django.urls import reverse_lazy
 class homeView(ListView):
     model = Post
     template_name = 'home.html'
-    ordering = ['-id']
+    # ordering = ['-id']
+    ordering = ['-post_date']
 
 class detailView(DetailView):
     model = Post
